@@ -15,6 +15,8 @@
 		CDD6F6FB1C32DE7F00C8DBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD6F6F91C32DE7F00C8DBED /* LaunchScreen.storyboard */; };
 		CDD6F7061C32DE7F00C8DBED /* indexPathForRowAtPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6F7051C32DE7F00C8DBED /* indexPathForRowAtPointTests.m */; };
 		CDD6F7111C32DE7F00C8DBED /* indexPathForRowAtPointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6F7101C32DE7F00C8DBED /* indexPathForRowAtPointUITests.m */; };
+		CDD6F7211C32E16B00C8DBED /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6F71F1C32E16B00C8DBED /* CustomTableViewCell.m */; };
+		CDD6F7221C32E16B00C8DBED /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD6F7201C32E16B00C8DBED /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CDD6F70C1C32DE7F00C8DBED /* indexPathForRowAtPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = indexPathForRowAtPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD6F7101C32DE7F00C8DBED /* indexPathForRowAtPointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indexPathForRowAtPointUITests.m; sourceTree = "<group>"; };
 		CDD6F7121C32DE7F00C8DBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD6F71E1C32E16B00C8DBED /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		CDD6F71F1C32E16B00C8DBED /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		CDD6F7201C32E16B00C8DBED /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				CDD6F6F11C32DE7F00C8DBED /* ViewController.h */,
 				CDD6F6F21C32DE7F00C8DBED /* ViewController.m */,
 				CDD6F6F41C32DE7F00C8DBED /* Main.storyboard */,
+				CDD6F71E1C32E16B00C8DBED /* CustomTableViewCell.h */,
+				CDD6F71F1C32E16B00C8DBED /* CustomTableViewCell.m */,
+				CDD6F7201C32E16B00C8DBED /* CustomTableViewCell.xib */,
 				CDD6F6F71C32DE7F00C8DBED /* Assets.xcassets */,
 				CDD6F6F91C32DE7F00C8DBED /* LaunchScreen.storyboard */,
 				CDD6F6FC1C32DE7F00C8DBED /* Info.plist */,
@@ -245,6 +253,7 @@
 			files = (
 				CDD6F6FB1C32DE7F00C8DBED /* LaunchScreen.storyboard in Resources */,
 				CDD6F6F81C32DE7F00C8DBED /* Assets.xcassets in Resources */,
+				CDD6F7221C32E16B00C8DBED /* CustomTableViewCell.xib in Resources */,
 				CDD6F6F61C32DE7F00C8DBED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				CDD6F6F31C32DE7F00C8DBED /* ViewController.m in Sources */,
 				CDD6F6F01C32DE7F00C8DBED /* AppDelegate.m in Sources */,
+				CDD6F7211C32E16B00C8DBED /* CustomTableViewCell.m in Sources */,
 				CDD6F6ED1C32DE7F00C8DBED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
